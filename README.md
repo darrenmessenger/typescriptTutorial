@@ -1,3 +1,24 @@
+# Requirements:
+You are given a path to a JSON file. It contains an object of unknown format.
+Find all object keys "foo", and replace them with "bar"
+ 
+Only keys should be affected. Write the results back to the same file.
+
+### Input:
+{
+"Foo": {
+"Foo": "value"
+}
+}
+ 
+### Expected output:
+ 
+{
+"Bar": {
+"Bar": "value"
+}
+}
+
 # Set Up Your Environment
 ## Install Node.js: If not already installed, download and install Node.js from nodejs.org.
 Install Visual Studio Code: Download and install Visual Studio Code from code.visualstudio.com.
